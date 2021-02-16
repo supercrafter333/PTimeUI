@@ -22,7 +22,7 @@ class EventListener implements Listener
         $player = $event->getPlayer();
         $name = $player->getName();
         if (in_array($name, $plugin->ptime)) {
-            $plugin->resetPTime($player);
+            $plugin->resetPTimeWithoutKick($player);
         }
     }
 }

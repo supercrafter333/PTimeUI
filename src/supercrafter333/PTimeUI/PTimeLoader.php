@@ -117,6 +117,19 @@ class PTimeLoader extends PluginBase {
             return true;
         }
         unset($this->ptime[array_search($player->getName(), $this->ptime)]);
+        $player->getLevel()->sendTime($player);
+        $this->getScheduler()->cancelTask(PTimeTask::$id);
+        $player->kick($this->prefix . "§bYou where kicked to reset your time without bugs!");
+        return true;
+    }
+
+    public function resetPTimeWithoutKick(Player $player)
+    {
+        if (!in_array($player->getName(), $this->ptime)) {
+            return true;
+        }
+        unset($this->ptime[array_search($player->getName(), $this->ptime)]);
+        $player->getLevel()->sendTime($player);
         $this->getScheduler()->cancelTask(PTimeTask::$id);
         return true;
     }

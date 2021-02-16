@@ -6,10 +6,12 @@ button-time-set-text: "§aSet your own time"
 button-reset-text: "Reset your time"
 button-leave-text: "Reset your time"
 #messages
-time-set-message: "You have set your own time!"
-reset-message: "You've successfully reset your own time!"
-leave-message: "You have closed the UI!"
-time-is-already-set: "Your own time was already set! Please reset your time and then select a new own time!"
+time-set-message: "§aYou have set your own time!"
+reset-message: "§aYou've successfully reset your own time!"
+leave-message: "§eYou have closed the UI!"
+time-is-already-set: "§eYour own time was already set! Please reset your time and then select a new own time!"
+reset-kick-reason: "§bYou where kicked to reset your time without bugs!"
+no-perms-message: "§cYou don't have permissions to use this commmand!"
 command-only-ingame-message: "This command works only In-Game!"
 #task configuration
 resume-ticks: 5
