@@ -4,7 +4,7 @@ UI-content: "Select an option!"
 Set-Time-UI-content: "Set your time here!"
 button-time-set-text: "§aSet your own time"
 button-reset-text: "Reset your time"
-button-leave-text: "Reset your time"
+button-leave-text: "Leave UI"
 #messages
 time-set-message: "§aYou have set your own time!"
 reset-message: "§aYou've successfully reset your own time!"
