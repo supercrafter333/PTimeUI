@@ -2,6 +2,7 @@
 
 namespace supercrafter333\PTimeUI;
 
+use supercrafter333\PTimeUI\Command\PTimeCMD;
 use supercrafter333\PTimeUI\libs\jojoe77777\FormAPI\SimpleForm;
 use supercrafter333\PTimeUI\libs\jojoe77777\FormAPI\CustomForm;
 use pocketmine\network\mcpe\protocol\SetTimePacket;
@@ -24,6 +25,7 @@ class PTimeLoader extends PluginBase {
         self::$instance = $this;
         $config = new Config($this->getDataFolder()."config.yml", Config::YAML);
         $this->config = $config;
+        $this->getServer()->getCommandMap()->register("PTimeUI", new PTimeCMD("PTime"));
         if (!is_int($config->get("resume-ticks"))) {
             $config->set("resume-ticks", 5);
             $this->getLogger()->warning("[PTimeUI] --- DEBUG: Your resume-tick configuration was not an integer. It was automatically set to 5.");
