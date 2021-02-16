@@ -16,7 +16,9 @@ This plugin is Licensed under the [Apache 2.0 License](/LICENSE)! Plugin by supe
 |--------------------------|
 
 ### Bugs
-|------------[ please post a bug if you found a bug [here](https://github.com/supercrafter333/PTimeUI/issues) ]--------------|
+- [ ] If you set your own time a second time, the time from before and now is lagging
+
+[ please post a bug if you found a bug [here](https://github.com/supercrafter333/PTimeUI/issues) ]
 
 ### Downloads:
 Poggit: <a href="https://poggit.pmmp.io/p/PTimeUI">Download</a> [soon]
