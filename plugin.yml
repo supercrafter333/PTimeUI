@@ -10,6 +10,6 @@ mcpe-protocols:
 author: supercrafter333
 
 permissions:
-  yourtimeui.cmd:
+  ptimeui.cmd:
     description: Command Permission
     default: op
