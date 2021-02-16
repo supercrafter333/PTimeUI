@@ -81,21 +81,21 @@ class PTimeLoader extends PluginBase {
     {
         if (!in_array($s->getName(), $this->ptime)) {
             $this->setPTime($s, $time);
-            $s->sendMessage($this->config->get("time-set-message"));
+            $s->sendMessage($this->prefix . $this->config->get("time-set-message"));
         } else {
-            $s->sendMessage($this->config->get("time-is-already-set"));
+            $s->sendMessage($this->prefix . $this->config->get("time-is-already-set"));
         }
     }
 
     private function reset(Player $s)
     {
         $this->resetPTime($s);
-        $s->sendMessage($this->config->get("reset-message"));
+        $s->sendMessage($this->prefix . $this->config->get("reset-message"));
     }
 
     private function close(Player $s) {
         $config = new Config($this->getDataFolder()."config.yml", Config::YAML);
-        $s->sendMessage($this->prefix.$config->get("leave-message"));
+        $s->sendMessage($this->prefix . $config->get("leave-message"));
     }
 
     /*API part*/
