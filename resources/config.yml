@@ -1,0 +1,18 @@
+#here you can customize the plugin
+#ui
+UI-content: "Select an option!"
+Set-Time-UI-content: "Set your time here!"
+button-time-set-text: "§aSet your own time"
+button-reset-text: "Reset your time"
+button-leave-text: "Reset your time"
+#messages
+time-set-message: "You have set your own time!"
+reset-message: "You've successfully reset your own time!"
+leave-message: "You have closed the UI!"
+time-is-already-set: "Your own time was already set! Please reset your time and then select a new own time!"
+command-only-ingame-message: "This command works only In-Game!"
+#task configuration
+resume-ticks: 5
+
+#have fun
+#by supercrafter333

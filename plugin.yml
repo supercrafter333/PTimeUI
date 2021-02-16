@@ -1,0 +1,15 @@
+name: PTimeUI
+version: 1.0.0
+api: 3.0.0
+main: supercrafter333\PTimeUI\PTimeLoader
+mcpe-protocols:
+  - 407
+  - 408
+  - 419
+  - 422
+author: supercrafter333
+
+permissions:
+  yourtimeui.cmd:
+    description: Command Permission
+    default: op
