@@ -1,6 +1,6 @@
 <?php
 
-namespace supercrafter333\YourTimeUI;
+namespace supercrafter333\PTimeUI;
 
 use supercrafter333\PTimeUI\libs\jojoe77777\FormAPI\SimpleForm;
 use supercrafter333\PTimeUI\libs\jojoe77777\FormAPI\CustomForm;

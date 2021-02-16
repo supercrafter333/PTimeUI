@@ -4,7 +4,7 @@ namespace supercrafter333\PTimeUI;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerQuitEvent;
-use supercrafter333\YourTimeUI\PTimeLoader;
+use supercrafter333\PTimeUI\PTimeLoader;
 
 class EventListener implements Listener
 {

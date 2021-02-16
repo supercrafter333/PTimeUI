@@ -6,7 +6,8 @@ use pocketmine\network\mcpe\protocol\SetTimePacket;
 use pocketmine\Player;
 use pocketmine\utils\Config;
 use pocketmine\scheduler\Task;
-use supercrafter333\YourTimeUI\PTimeLoader;
+use supercrafter333\PTimeUI\PTimeLoader;
+
 
 class PTimeTask extends Task
 {

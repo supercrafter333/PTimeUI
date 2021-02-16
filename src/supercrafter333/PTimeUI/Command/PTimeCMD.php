@@ -6,7 +6,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\utils\Config;
-use supercrafter333\YourTimeUI\PTimeLoader;
+use supercrafter333\PTimeUI\PTimeLoader;
 
 class PTimeCMD extends Command
 {
@@ -22,7 +22,7 @@ class PTimeCMD extends Command
         $config = new Config($plugin->getDataFolder()."config.yml", Config::YAML);
         if ($s instanceof Player) {
             if ($s->hasPermission("ptimeui.cmd")) {
-                
+                $plugin->ptimeui($s);
             }
         } else {
             $s->sendMessage($config->get("command-only-ingame-message"));
