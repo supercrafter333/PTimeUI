@@ -108,7 +108,7 @@ class PTimeLoader extends PluginBase {
     {
         $config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
         $this->ptime[] = $player->getName();
-        return $this->getScheduler()->scheduleRepeatingTask(new PTimeTask($this, $player, $time), $config->get("resume-ticks"));
+        $this->getScheduler()->scheduleRepeatingTask(new PTimeTask($this, $player, $time), $config->get("resume-ticks"));
     }
 
     public function resetPTime(Player $player)
@@ -117,9 +117,6 @@ class PTimeLoader extends PluginBase {
             return true;
         }
         unset($this->ptime[array_search($player->getName(), $this->ptime)]);
-        $pk = new SetTimePacket();
-        $pk->reset();
-        $player->sendDataPacket($pk);
         $this->getScheduler()->cancelTask(PTimeTask::$id);
         return true;
     }

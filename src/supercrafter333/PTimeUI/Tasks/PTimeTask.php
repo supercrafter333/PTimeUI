@@ -33,9 +33,9 @@ class PTimeTask extends Task
         $player = $this->player;
         $name = $player->getName();
         if (in_array($name, $plugin->ptime)) {
-            $packet = new SetTimePacket();
-            $packet->time = $time;
-            $player->sendDataPacket($packet);
+            $pk = new SetTimePacket();
+            $pk->time = $time;
+            $player->sendDataPacket($pk);
         } else {
             $plugin->resetPTime($player);
         }
