@@ -23,6 +23,8 @@ class PTimeCMD extends Command
         if ($s instanceof Player) {
             if ($s->hasPermission("ptimeui.cmd")) {
                 $plugin->ptimeui($s);
+            } else {
+                $s->sendMessage($plugin->prefix . $config->get("no-perms-message"));
             }
         } else {
             $s->sendMessage($config->get("command-only-ingame-message"));
