@@ -13,7 +13,7 @@ class PTimeCMD extends Command
 
     public function __construct(string $name, string $description = "", string $usageMessage = null, array $aliases = [])
     {
-        parent::__construct("ptime", "Set your own time!", "/ptime <time>", ["playertime"]);
+        parent::__construct("ptime", "Set your own time!", "/ptime <time>", ["playertime", "ptimeui"]);
     }
 
     public function execute(CommandSender $s, string $commandLabel, array $args)
