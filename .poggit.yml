@@ -4,5 +4,6 @@ branches:
 - master
 projects:
   PTimeUI:
+    icon: "icon.png"
     path: ""
 ...
