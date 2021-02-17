@@ -71,7 +71,7 @@ class PTimeLoader extends PluginBase {
         $config = $this->config;
         $form->setTitle("§l§bP§eTime§7UI");
         $form->addLabel($config->get("Set-Time-UI-content"));
-        $form->addSlider("Time", 0, 12000);
+        $form->addSlider("Time", 0, 24000);
         $form->sendToPlayer($s);
         return $form;
     }
