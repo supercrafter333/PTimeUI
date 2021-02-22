@@ -3,8 +3,8 @@
 namespace supercrafter333\PTimeUI;
 
 use supercrafter333\PTimeUI\Command\PTimeCMD;
-use supercrafter333\PTimeUI\libs\jojoe77777\FormAPI\SimpleForm;
-use supercrafter333\PTimeUI\libs\jojoe77777\FormAPI\CustomForm;
+use jojoe77777\FormAPI\SimpleForm;
+use jojoe77777\FormAPI\CustomForm;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
