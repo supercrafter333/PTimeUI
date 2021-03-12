@@ -1,6 +1,6 @@
-# PTimeUI   [![](https://poggit.pmmp.io/shield.state/PTimeUI)](https://poggit.pmmp.io/p/PTimeUI)
+# PTimeUI   [![](https://poggit.pmmp.io/shield.state/PTimeUI)](https://poggit.pmmp.io/p/PTimeUI) <a href="https://poggit.pmmp.io/p/PTimeUI"><img src="https://poggit.pmmp.io/shield.dl.total/PTimeUI"></a>
 
-Wich this plugin players can set his own time!
+With this plugin players can set his own time!
 
 I hope that this plugin is usefull :)
 
