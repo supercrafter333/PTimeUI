@@ -1,3 +1,4 @@
+[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)
 # PTimeUI   [![](https://poggit.pmmp.io/shield.state/PTimeUI)](https://poggit.pmmp.io/p/PTimeUI) <a href="https://poggit.pmmp.io/p/PTimeUI"><img src="https://poggit.pmmp.io/shield.dl.total/PTimeUI"></a>
 
 With this plugin players can set his own time!
